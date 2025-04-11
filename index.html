@@ -6,9 +6,14 @@
     </head>
     <body>
         <div id='timeline-embed' style="width: 100%; height: 600px"></div>
-        <script type="text/javascript">
-            timeline = new TL.Timeline('timeline-embed',
-            'https://docs.google.com/spreadsheets/d/1cWqQBZCkX9GpzFtxCWHoqFXCHg-ylTVUWlnrdYMzKUI/pubhtml');
+        <script>
+            $(document).ready(function() {
+                var embed = document.getElementById('timeline-embed');
+                embed.style.height = getComputedStyle(document.body).height;
+                window.timeline = new TL.Timeline('timeline-embed', './timeline.json', {
+                    hash_bookmark: false
+                });
+            });
         </script>
     </body>
 </html>
