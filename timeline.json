@@ -1,43 +1,164 @@
 {
     "title": {
         "text": {
-          "headline": "World War II<br/> 1939 - 1945",
-          "text": "<p>World War II was the deadliest war in history resulting in the loss of over 60 million lives. This timeline will outline the most important events.</p>"
+          "headline": "World War II<br/> Major Events",
+          "text": "<p>World War II was the deadliest war in history resulting in the loss of over 60 million lives. This timeline will outline the most important events, from the German annexation of Austria to the dropping of the atomic bomb on Hiroshima and Nagasaki</p>"
         }
     },
     "events": [
-      {
-        "start_date": {
-          "month": "9",
-          "day": "1",
-          "year": "1939"
+        {
+          "start_date": {
+            "month": "7",
+            "day": "7",
+            "year": "1937"
+          },
+          "text": {
+            "headline": "Japan invades China",
+            "text": "<p>On July 7, 1937, Japan launched a full-scale invasion of China, starting with the Marco Polo Bridge Incident, marking the beginning of the Second Sino-Japanese War.</p>"
+          }
         },
-        "text": {
-          "headline": "Germany invades Poland",
-          "text": "<p>On September 1st of 1939, Germany invades Poland, prompting the United Kingdom and France to declare war with Germany 2 days later on September 3rd when their ultimatum was ignored requesting Germany to cease military operations.</p>"
-        }
-      },
-      {
-        "start_date": {
-          "month": "9",
-          "day": "15",
-          "year": "1939"
+        {
+          "start_date": {
+            "month": "3",
+            "day": "12",
+            "year": "1938"
+          },
+          "text": {
+            "headline": "Germany annexes Austria (Anschluss)",
+            "text": "<p>On March 12, 1938, Germany annexed Austria into the Third Reich in a largely unopposed move, violating the Treaty of Versailles and setting the stage for further expansion.</p>"
+          }
         },
-        "text": {
-          "headline": "The Soviet Union signs a ceasefire with Japan",
-          "text": "<p>On September 15th, Russia signs a ceasefire with Japan after the Battle of Kahlkhin Gol ended in Japans defeat.</p>"
-        }
-      },
-      {
-        "start_date": {
-          "month": "9",
-          "day": "17",
-          "year": "1939"
+        {
+          "start_date": {
+            "month": "3",
+            "day": "15",
+            "year": "1939"
+          },
+          "text": {
+            "headline": "Germany occupies Czechoslovakia",
+            "text": "<p>On March 15, 1939, Germany invaded and occupied the remaining parts of Czechoslovakia, breaking the Munich Agreement and increasing tensions in Europe.</p>"
+          }
         },
-        "text": {
-          "headline": "The Soviet Union invades Poland",
-          "text": "<p>On September 17th, The Soviet Union invades Poland from the east creating a war on two fronts, Poland is outmatched.</p>"
+        {
+          "start_date": {
+            "month": "9",
+            "day": "1",
+            "year": "1939"
+          },
+          "text": {
+            "headline": "Germany invades Poland",
+            "text": "<p>Germany invaded Poland on September 1, 1939, marking the official start of World War II. The UK and France declared war on Germany two days later.</p>"
+          }
+        },
+        {
+          "start_date": {
+            "month": "9",
+            "day": "17",
+            "year": "1939"
+          },
+          "text": {
+            "headline": "Soviet Union invades Eastern Poland",
+            "text": "<p>On September 17, 1939, the Soviet Union invaded Poland from the east, in accordance with the secret protocols of the Molotov-Ribbentrop Pact signed with Germany.</p>"
+          }
+        },
+        {
+          "start_date": {
+            "month": "5",
+            "day": "10",
+            "year": "1940"
+          },
+          "text": {
+            "headline": "Germany invades France and the Low Countries",
+            "text": "<p>On May 10, 1940, Germany launched a blitzkrieg against France, Belgium, the Netherlands, and Luxembourg. German forces bypassed the Maginot Line, quickly overwhelming Allied defenses.</p>"
+          }
+        },
+        {
+          "start_date": {
+            "month": "6",
+            "day": "22",
+            "year": "1940"
+          },
+          "text": {
+            "headline": "France signs armistice with Germany",
+            "text": "<p>On June 22, 1940, following the German victory in the Battle of France, the French government signed an armistice, resulting in German occupation of the north and west of France.</p>"
+          }
+        },
+        {
+          "start_date": {
+            "month": "6",
+            "day": "22",
+            "year": "1941"
+          },
+          "text": {
+            "headline": "Germany invades the Soviet Union (Operation Barbarossa)",
+            "text": "<p>On June 22, 1941, Germany launched Operation Barbarossa, a massive and brutal invasion of the Soviet Union, opening the Eastern Front and breaking the non-aggression pact.</p>"
+          }
+        },
+        {
+          "start_date": {
+            "month": "12",
+            "day": "7",
+            "year": "1941"
+          },
+          "text": {
+            "headline": "Attack on Pearl Harbor",
+            "text": "<p>On December 7, 1941, Japan attacked the U.S. naval base at Pearl Harbor in Hawaii, drawing the United States into World War II.</p>"
+          }
+        },
+        {
+          "start_date": {
+            "month": "6",
+            "day": "6",
+            "year": "1944"
+          },
+          "text": {
+            "headline": "D-Day: Allied Invasion of Normandy",
+            "text": "<p>On June 6, 1944, Allied forces stormed the beaches of Normandy, France, launching Operation Overlord and beginning the liberation of Western Europe from Nazi control.</p>"
+          }
+        },
+        {
+          "start_date": {
+            "month": "5",
+            "day": "8",
+            "year": "1945"
+          },
+          "text": {
+            "headline": "Victory in Europe Day (VE Day)",
+            "text": "<p>On May 8, 1945, the Allies accepted Nazi Germany’s unconditional surrender, marking the end of World War II in Europe.</p>"
+          }
+        },
+        {
+          "start_date": {
+            "month": "8",
+            "day": "6",
+            "year": "1945"
+          },
+          "text": {
+            "headline": "Atomic bombing of Hiroshima",
+            "text": "<p>On August 6, 1945, the United States dropped the first atomic bomb on the Japanese city of Hiroshima, causing massive destruction and loss of life.</p>"
+          }
+        },
+        {
+          "start_date": {
+            "month": "8",
+            "day": "9",
+            "year": "1945"
+          },
+          "text": {
+            "headline": "Atomic bombing of Nagasaki",
+            "text": "<p>On August 9, 1945, the United States dropped a second atomic bomb on Nagasaki. Combined with the devastation of Hiroshima, this led to Japan’s surrender.</p>"
+          }
+        },
+        {
+          "start_date": {
+            "month": "9",
+            "day": "2",
+            "year": "1945"
+          },
+          "text": {
+            "headline": "Japan formally surrenders (VJ Day)",
+            "text": "<p>On September 2, 1945, Japan officially surrendered aboard the USS Missouri, ending World War II entirely.</p>"
+          }
         }
-      }
-    ]
+      ]      
 }
