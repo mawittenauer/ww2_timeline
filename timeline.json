@@ -45,6 +45,11 @@
             "day": "1",
             "year": "1939"
           },
+          "media": {
+            "url": "https://www.youtube.com/watch?v=pw2PenZYBuw",
+            "caption": "Captured Film -- Germany Invades Poland 1939",
+            "credit": "YouTube"
+          },
           "text": {
             "headline": "Germany invades Poland",
             "text": "<p>Germany invaded Poland on September 1, 1939, marking the official start of World War II. The UK and France declared war on Germany two days later.</p>"
@@ -81,6 +86,11 @@
           "text": {
             "headline": "France signs armistice with Germany",
             "text": "<p>On June 22, 1940, following the German victory in the Battle of France, the French government signed an armistice, resulting in German occupation of the north and west of France.</p>"
+          },
+          "media": {
+            "url": "https://www.youtube.com/watch?v=AerUaQQjtPQ",
+            "caption": "Franco-German Armistice: Hitler (1940)",
+            "credit": "YouTube"
           }
         },
         {
@@ -92,6 +102,11 @@
           "text": {
             "headline": "Germany invades the Soviet Union (Operation Barbarossa)",
             "text": "<p>On June 22, 1941, Germany launched Operation Barbarossa, a massive and brutal invasion of the Soviet Union, opening the Eastern Front and breaking the non-aggression pact.</p>"
+          },
+          "media": {
+            "url": "https://www.youtube.com/watch?v=Hw-VUaeNmgw",
+            "caption": "Operation Barbarossa: German Invasion of Russia | Part One",
+            "credit": "YouTube"
           }
         },
         {
@@ -103,6 +118,11 @@
           "text": {
             "headline": "Attack on Pearl Harbor",
             "text": "<p>On December 7, 1941, Japan attacked the U.S. naval base at Pearl Harbor in Hawaii, drawing the United States into World War II.</p>"
+          },
+          "media": {
+            "url": "https://www.youtube.com/watch?v=DNV8enpVwok",
+            "caption": "The Attack on Pearl Harbor",
+            "credit": "YouTube"
           }
         },
         {
@@ -114,6 +134,11 @@
           "text": {
             "headline": "D-Day: Allied Invasion of Normandy",
             "text": "<p>On June 6, 1944, Allied forces stormed the beaches of Normandy, France, launching Operation Overlord and beginning the liberation of Western Europe from Nazi control.</p>"
+          },
+          "media": {
+            "url": "https://www.youtube.com/watch?v=-nRLbuCG5Z0",
+            "caption": "Operation Overlord: D-Day in Normandy | WWII IN 2",
+            "credit": "YouTube"
           }
         },
         {
