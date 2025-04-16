@@ -26,12 +26,12 @@
         <!-- Favicon -->
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon" href="/ww2_icon.png">
-        <link rel="stylesheet" href="./css/timeline.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-        <script src="./js/timeline.js"></script>
+        <link rel="stylesheet" href="./css/leaflet.css" />
+        <script src="./js/leaflet.js"></script>
     </head>
-    <body>
+    <body style="height: 90vh; margin: 0;">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/">World War 2 Timeline</a>
@@ -50,15 +50,18 @@
                   </div>
             </div>
         </nav>
-        <div id='timeline-embed' style="width: 100%; height: 600px"></div>
+        <div id="map" style="height: 100%;"></div>
         <script>
-            $(document).ready(function() {
-                var embed = document.getElementById('timeline-embed');
-                embed.style.height = getComputedStyle(document.body).height;
-                window.timeline = new TL.Timeline('timeline-embed', './timeline.json', {
-                    hash_bookmark: false
-                });
-            });
+            var map = L.map('map').setView([51.505, -0.09], 13);
+            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }).addTo(map);
+            var popup = L.popup()
+                .setLatLng([51.513, -0.09])
+                .setContent("I am a standalone popup.")
+                .openOn(map);
         </script>
     </body>
 </html>
+
