@@ -57,7 +57,6 @@ const ww2Events = [
     }
 ];
 
-
 // Add markers to the map
 ww2Events.forEach(event => {
 L.marker([event.lat, event.lng])
