@@ -44,6 +44,12 @@ const locations = [
     "description": "On May 10, 1940, Germany launched a blitzkrieg against France, Belgium, the Netherlands, and Luxembourg. German forces bypassed the Maginot Line, quickly overwhelming Allied defenses."
   },
   {
+    "title": "Battle of Britain",
+    "date": "July 10, 1940",
+    "coordinates": [51.5074, -0.1278],
+    "description": "From July to October 1940, the Royal Air Force defended the UK against massive German air assaults in the first all-air battle in history. Britain's victory ended Hitler's plans for a seaborne invasion and demonstrated that air power alone could decide a campaign."
+  },
+  {
     "title": "France signs armistice with Germany",
     "date": "June 22, 1940",
     "coordinates": [47.904, 1.9093],
@@ -56,16 +62,46 @@ const locations = [
     "description": "On June 22, 1941, Germany launched Operation Barbarossa, a massive and brutal invasion of the Soviet Union, opening the Eastern Front and breaking the non-aggression pact."
   },
   {
+    "title": "Siege of Leningrad",
+    "date": "September 8, 1941",
+    "coordinates": [59.9311, 30.3609],
+    "description": "The Siege of Leningrad lasted nearly 900 days, resulting in the deaths of over a million civilians due to starvation, disease, and bombardment. The city's endurance became a powerful symbol of Soviet resistance."
+  },
+  {
     "title": "Attack on Pearl Harbor",
     "date": "December 7, 1941",
     "coordinates": [21.3069, -157.8583],
     "description": "On December 7, 1941, Japan attacked the U.S. naval base at Pearl Harbor in Hawaii, drawing the United States into World War II."
   },
   {
+    "title": "Battle of Midway",
+    "date": "June 4, 1942",
+    "coordinates": [28.2, -177.35],
+    "description": "The Battle of Midway was a crucial naval battle in the Pacific Theater. American forces, through code-breaking, ambushed and sank four Japanese aircraft carriers, halting Japan’s expansion and turning the tide of the war in the Pacific."
+  },
+  {
+    "title": "Battle of Stalingrad",
+    "date": "July 17, 1942",
+    "coordinates": [48.708, 44.5133],
+    "description": "The Battle of Stalingrad marked the turning point in the Eastern Front. The Soviet Union decisively defeated the German Army, halting its advance into the USSR and beginning a long counter-offensive toward Berlin."
+  },
+  {
+    "title": "Second Battle of El Alamein",
+    "date": "October 23, 1942",
+    "coordinates": [30.8333, 28.95],
+    "description": "British forces under General Montgomery defeated the Afrika Korps led by Rommel. This victory in Egypt forced Axis forces to retreat across North Africa and secured the Suez Canal."
+  },
+  {
     "title": "D-Day: Allied Invasion of Normandy",
     "date": "June 6, 1944",
     "coordinates": [49.3228, -0.621],
     "description": "On June 6, 1944, Allied forces stormed the beaches of Normandy, France, launching Operation Overlord and beginning the liberation of Western Europe from Nazi control."
+  },
+  {
+    "title": "Battle of the Bulge",
+    "date": "December 16, 1944",
+    "coordinates": [50.0, 6.0],
+    "description": "The last major German offensive campaign on the Western Front, the Battle of the Bulge saw surprise attacks through the Ardennes that nearly split Allied lines. Stubborn American resistance turned the tide."
   },
   {
     "title": "Victory in Europe Day (VE Day)",
@@ -90,42 +126,6 @@ const locations = [
     "date": "September 2, 1945",
     "coordinates": [35.6762, 139.6503],
     "description": "On September 2, 1945, Japan officially surrendered aboard the USS Missouri, ending World War II entirely."
-  },
-  {
-    "title": "Battle of Britain",
-    "date": "July 10, 1940",
-    "coordinates": [51.5074, -0.1278],
-    "description": "From July to October 1940, the Royal Air Force defended the UK against massive German air assaults in the first all-air battle in history. Britain's victory ended Hitler's plans for a seaborne invasion and demonstrated that air power alone could decide a campaign."
-  },
-  {
-    "title": "Siege of Leningrad",
-    "date": "September 8, 1941",
-    "coordinates": [59.9311, 30.3609],
-    "description": "The Siege of Leningrad lasted nearly 900 days, resulting in the deaths of over a million civilians due to starvation, disease, and bombardment. The city's endurance became a powerful symbol of Soviet resistance."
-  },
-  {
-    "title": "Battle of Stalingrad",
-    "date": "July 17, 1942",
-    "coordinates": [48.708, 44.5133],
-    "description": "The Battle of Stalingrad marked the turning point in the Eastern Front. The Soviet Union decisively defeated the German Army, halting its advance into the USSR and beginning a long counter-offensive toward Berlin."
-  },
-  {
-    "title": "Battle of the Bulge",
-    "date": "December 16, 1944",
-    "coordinates": [50.0, 6.0],
-    "description": "The last major German offensive campaign on the Western Front, the Battle of the Bulge saw surprise attacks through the Ardennes that nearly split Allied lines. Stubborn American resistance turned the tide."
-  },
-  {
-    "title": "Battle of Midway",
-    "date": "June 4, 1942",
-    "coordinates": [28.2, -177.35],
-    "description": "The Battle of Midway was a crucial naval battle in the Pacific Theater. American forces, through code-breaking, ambushed and sank four Japanese aircraft carriers, halting Japan’s expansion and turning the tide of the war in the Pacific."
-  },
-  {
-    "title": "Second Battle of El Alamein",
-    "date": "October 23, 1942",
-    "coordinates": [30.8333, 28.95],
-    "description": "British forces under General Montgomery defeated the Afrika Korps led by Rommel. This victory in Egypt forced Axis forces to retreat across North Africa and secured the Suez Canal."
   }
 ];
 
